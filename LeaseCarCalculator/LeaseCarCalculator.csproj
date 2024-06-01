@@ -3,29 +3,10 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
+	<EnableWindowsTargeting>true</EnableWindowsTargeting>
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\EnergyCostTool.Dal\EnergyCostTool.Dal.csproj" />
-    <ProjectReference Include="..\EnergyCostTool.Data\EnergyCostTool.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="SolarInformationWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="YearlyCostWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="FixedCostWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="EnergyPriceWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
 
 </Project>
