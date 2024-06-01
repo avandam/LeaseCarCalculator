@@ -2,7 +2,6 @@
 using System.Windows;
 
 namespace LeaseCarCalculator;
-;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml
